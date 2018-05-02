@@ -9,13 +9,29 @@ Page({
       id: 1,
       title: '德国之旅',
       members: [{ name: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg' }, { name:'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg'}],
-      image: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg'
+      image: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg',
+      amount:917
     },
     {
       id: 2,
       title: '4月野炊',
       members: [{ name: 'TJY' }],
-      image: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg'
+      image: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg',
+      amount: 917
+      },
+      {
+        id: 2,
+        title: '克罗地亚',
+        members: [{ name: 'TJY' }],
+        image: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg',
+        amount: 917
+    },
+    {
+      id: 2,
+      title: '4月野炊',
+      members: [{ name: 'TJY' }],
+      image: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg',
+      amount: 917
     }]
   },
 

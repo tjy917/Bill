@@ -7,13 +7,12 @@
         <text class='subtitle'>{{item.subtitle}}</text>
         <view class='members'>
          <text>成员:</text>
-         <image class='member-class'wx:for='{{item.members}}' style='width :60rpx;height:60rpx' src='{{item.name}}'></image>
         </view>
+        <image class='member-class'wx:for='{{item.members}}' style='width :60rpx;height:60rpx' src='{{item.name}}'></image>
       </view>
       <view class='rating'>
-        <text>{{itme.rating.average}}</text>
+        <text>{{item.amount}}</text>
       </view>
     </view>
-
   </navigator>
 </scroll-view>
