@@ -1,13 +1,14 @@
 <scroll-view class='page-body' scroll-y>
   <navigator url='../Bills/Bills' wx:for='{{Bills}}'>
-    <view class='item'>
-      <image src='{{item.image}}'></image>
+    <view class='items'>
+      <image class='poster' src='{{item.image}}'></image>
       <view class='meta'>
         <text class='title'>{{item.title}}</text>
         <text class='subtitle'>{{item.subtitle}}</text>
-        <text class='friends'>
-                  <text wx:for='{{item.friends }}'>{{item.name}}</text>
-        </text>
+        <view class='members'>
+         <text>成员:</text>
+         <image class='member-class'wx:for='{{item.members}}' style='width :60rpx;height:60rpx' src='{{item.name}}'></image>
+        </view>
       </view>
       <view class='rating'>
         <text>{{itme.rating.average}}</text>

@@ -7,14 +7,14 @@ Page({
   data: {
     Bills: [{
       id: 1,
-      title: '应季鲜果',
-      count: 1,
+      title: '德国之旅',
+      members: [{ name: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg' }, { name:'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg'}],
       image: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg'
     },
     {
       id: 2,
-      title: '鲜果',
-      count: 2,
+      title: '4月野炊',
+      members: [{ name: 'TJY' }],
       image: 'http://www.emtech.in/wp-content/uploads/2017/03/pic.jpg'
     }]
   },
