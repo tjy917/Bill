@@ -1,0 +1,12 @@
+page{
+  font-family: "Microsoft YaHei";
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-body{
+  display: flex;
+  flex-direction:column;
+  flex: 5;
+}
