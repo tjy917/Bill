@@ -6,11 +6,13 @@
         <text class='title'>{{item.title}}</text>
         <text class='subtitle'>{{item.subtitle}}</text>
         <view class='members'>
-         <text>成员:</text>
+         <text>成员:共{{item.members.length}}人</text>
         </view>
-        <image class='member-class'wx:for='{{item.members}}' style='width :60rpx;height:60rpx' src='{{item.name}}'></image>
+        <image class='member-icon'wx:for='{{item.members}}' style='width :60rpx;height:60rpx' src='{{item.name}}'></image>
+        <text class='C_time'>{{item.timestamp}}</text>
       </view>
       <view class='rating'>
+        <text>{{item.amount}}</text>
         <text>{{item.amount}}</text>
       </view>
     </view>
