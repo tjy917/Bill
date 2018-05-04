@@ -58,3 +58,11 @@ page{
   display: block;
   font-size: 30rpx
 }
+.income{
+  color: green;
+  font-weight: bold;
+}
+.outcome{
+  color: red;
+  font-weight: bold;
+}

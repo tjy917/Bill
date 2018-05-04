@@ -1,5 +1,5 @@
 <scroll-view class='page-body' scroll-y>
-  <navigator url='../Bills/Bills' wx:for='{{Bills}}'>
+  <navigator url='../details/details?id={{item.id}}' wx:for='{{Bills}}'>
     <view class='items'>
       <image class='poster' src='{{item.image}}'></image>
       <view class='meta'>
@@ -12,8 +12,8 @@
         <text class='C_time'>{{item.timestamp}}</text>
       </view>
       <view class='rating'>
-        <text>{{item.amount}}</text>
-        <text>{{item.amount}}</text>
+        <text class='income'>{{item.amount}}</text>
+        <text class='outcome'>{{item.amount}}</text>
       </view>
     </view>
   </navigator>
